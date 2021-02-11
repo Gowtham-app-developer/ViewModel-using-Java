@@ -1,4 +1,4 @@
-# ViewModel-using-Java
+# ViewModel
 
 - The ViewModel is a part of Android Architecture Components. 
 - The ViewModel class is designed to hold and manage UI-related data in a life-cycle conscious way. 

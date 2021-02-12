@@ -4,6 +4,7 @@ package com.gowtham.viewmodel;
 import androidx.lifecycle.ViewModel;
 
 public class MainActivityViewModel extends ViewModel {
+
     private int clickCountA = 0;
     private int clickCountB = 0;
 
@@ -15,12 +16,12 @@ public class MainActivityViewModel extends ViewModel {
         return clickCountB;
     }
 
-    public int getCurrentCountA() {
+    public int setCurrentCountA() {
         clickCountA++;
         return clickCountA;
     }
 
-    public int getCurrentCountB() {
+    public int setCurrentCountB() {
         clickCountB++;
         return clickCountB;
     }

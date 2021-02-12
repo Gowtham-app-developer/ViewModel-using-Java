@@ -48,11 +48,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btnPlayerA:
                 //set current counter from view model
-                tvScoreA.setText(String.valueOf(mainViewModel.getCurrentCountA()));
+                tvScoreA.setText(String.valueOf(mainViewModel.setCurrentCountA()));
                 break;
             case R.id.btnPlayerB:
                 //set current counter from view model
-                tvScoreB.setText(String.valueOf(mainViewModel.getCurrentCountB()));
+                tvScoreB.setText(String.valueOf(mainViewModel.setCurrentCountB()));
                 break;
             default:
         }
